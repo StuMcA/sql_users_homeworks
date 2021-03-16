@@ -4,8 +4,8 @@ import repositories.task_repository as task_repository
 from models.user import User
 import repositories.user_repository as user_repository
 
-user_repository.delete_all()
 task_repository.delete_all()
+user_repository.delete_all()
 
 user_1 = User("Jack", "Jarvis")
 user_2 = User("Victor", "McDade")
